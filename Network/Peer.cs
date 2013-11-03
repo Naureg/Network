@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace Network {
-    class Peer{
+    public class Peer{
         private String alias;
         private byte ID;
         public Peer(String alias, byte ID){

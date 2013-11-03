@@ -4,7 +4,7 @@
      * in order for the server/client to determine the contents
      * or purpose of the incoming data
      */
-    enum MessageHeaders : byte{
+    public enum MessageHeaders : byte{
         MESSAGE = 0x0,
         SET_ALIAS = 0x1,
         REQUEST_PEERS = 0x2,
