@@ -1,7 +1,4 @@
 ﻿namespace Network{
-    public static class Network{
-
-    }
     /*
      * Message headers are prepended to the outgoing bytes
      * in order for the server/client to determine the contents
