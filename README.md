@@ -1,1 +1,1 @@
-Shared code between the IM client and server
+Common code needed by the client and server, compiled as a library (.dll)
