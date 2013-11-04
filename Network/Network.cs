@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Net.Sockets;
 
 namespace Network {
-    public class Network{
+    public abstract class Network{
         public static Dictionary<byte, String> Peers = new Dictionary<byte, String>();
         public static byte[] ReceiveData(Socket socket){ //receives and trims raw data
             byte[] buffer = new byte[256];
